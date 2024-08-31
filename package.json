@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-backend-server",
+  "version": "1.0.0",
+  "description": "A Backend Server for email notfication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robot-dev11/portfolio-backend-server.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Email",
+    "Notification",
+    "Server"
+  ],
+  "author": "Giriraj Soni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robot-dev11/portfolio-backend-server/issues"
+  },
+  "homepage": "https://github.com/Robot-dev11/portfolio-backend-server#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
