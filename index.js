@@ -19,8 +19,6 @@ const transporter = nodemailer.createTransport({
     }
 })
 
-
-
 app.get('/', () => {
     res.send('Hello World');
 })
