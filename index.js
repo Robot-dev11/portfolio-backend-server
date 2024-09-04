@@ -27,7 +27,7 @@ app.get('/', () => {
 
 app.post('/send-email', async (req, res) => {
     try{
-
+        console.log(req.body);
         const schema = joi.object({
             firstName: joi.string().min(3).max(30).required(),
             lastName: joi.string().min(3).max(30).required(),
